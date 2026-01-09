@@ -22,7 +22,7 @@ img {
 }
 
 p {
-    padding: 10px;
+    padding: 0px;
 }
 
 main {
@@ -39,7 +39,7 @@ aside {
     text-align: center;
 }
 
-aside img {
+main img {
     width: 200px;
     height: auto;
 }
