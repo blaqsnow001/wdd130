@@ -1,0 +1,57 @@
+body {
+    max-width: 900px;
+    margin: auto;
+    padding: 10px;
+}
+
+body header {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+    padding: 1px;
+    background-color: #535151;
+    font-size: larger;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+picture img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 2);
+}
+
+section h2 {
+    margin: 15px;
+    padding: 5px;
+    border-bottom: 1px solid black;
+}
+
+section p {
+    padding: 10px;
+}
+
+section {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background-color: rgb(189, 182, 182);
+}
+
+footer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+    padding: 1px;
+    background-color: #535151;
+    font-size: small;
+    text-align: center;
+}
