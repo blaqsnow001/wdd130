@@ -24,3 +24,32 @@ img {
 p {
     padding: 10px;
 }
+
+main {
+    max-width: 840px;
+}
+
+aside {
+    width: 300px;
+    margin: 10px;
+    border: 1px solid black;
+    padding: 15px;
+    background-color: rgb(88, 85, 85);
+    color: wheat;
+    text-align: center;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+p {
+    padding: 0;
+}
+
+footer {
+    margin-top: 15px;
+    border-top: 1px dotted black;
+    text-align: center;
+}
