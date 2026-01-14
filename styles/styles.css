@@ -1,5 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-color: #00008b;
+    --border-color: black;
+}
+
 nav {
-    background-color: darkblue;
+    background-color: var(--main-color);
     padding: 10px;
 }
 
@@ -10,13 +21,15 @@ nav a {
 }
 
 h1 {
-    color: darkblue;
+    color: var(--main-color);
 }
 
 main img {
+    float: right;
+    margin: 0 0 1rem 1rem;
     width: 150px;
     height: auto;
-    border: 1px solid black;
+    border: 1px solid var(--border-color);
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
@@ -26,17 +39,18 @@ p {
 }
 
 main {
-    max-width: 840px;
+    max-width: 648px;
 }
 
 aside {
     width: 300px;
-    margin: 10px;
-    border: 1px solid black;
-    padding: 15px;
-    background-color: rgb(88, 85, 85);
-    color: wheat;
     text-align: center;
+}
+
+aside h2 {
+    position: absolute;
+    right: 470px;
+    color: black;
 }
 
 aside img {
@@ -50,6 +64,16 @@ p {
 
 footer {
     margin-top: 15px;
-    border-top: 1px dotted black;
+    border-top: 1px dotted var(--border-color);
     text-align: center;
+}
+
+/* Class Selctors */
+
+.box {
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 10%);
+    padding: 1rem;
+    background-color: rgb(88, 85, 85);
+    color: wheat;
 }
