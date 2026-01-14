@@ -26,7 +26,10 @@ h1 {
 
 main img {
     float: right;
+<<<<<<< HEAD
     margin: 0 0 1rem 1rem;
+=======
+>>>>>>> 920d4d8183ab9c19a4b1cc7d1aff97290023a8e9
     width: 150px;
     height: auto;
     border: 1px solid var(--border-color);
