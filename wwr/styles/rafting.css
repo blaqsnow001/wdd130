@@ -1,7 +1,8 @@
 :root {
     --primary-color: #FFFFFF;
     --secondary-color: #1f3a5f;
-    --accent-color: #000000;
+    --accent1-color: #000000;
+    --accent2-color: #99a4d400;
     --heading-font: "Times New Roman", Georgia, serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -40,7 +41,7 @@ footer {
     text-align: center;
     padding: 16px;
     background-color: rgba(31, 58, 95, 0.8);
-    color: white;
+    color: var(--primary-color);
 }
 
 .hero article {
@@ -57,6 +58,7 @@ footer {
     float: right;
     width: 125px;
     margin-left: 16px;
+    color: var(--primary-color);
 }
 
 section h2 {
@@ -65,6 +67,7 @@ section h2 {
     text-align: center;
     padding: 12px;
     margin-top: 20px;
+    font-family: var(--heading-font);
 }
 
 .socialmedia {
@@ -72,6 +75,7 @@ section h2 {
     gap: 12px;
     justify-content: center;
     margin-top: 10px;
+    text-decoration: none;
 }
 
 .socialmedia img {
