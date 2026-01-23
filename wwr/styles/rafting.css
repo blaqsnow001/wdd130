@@ -15,7 +15,7 @@
 
 body {
     font-family: var(--body-font);
-    color: var(--accent-color);
+    color: var(--accent1-color);
 }
 
 header,
@@ -50,7 +50,7 @@ footer {
     left: 20px;
     right: 20px;
     background-color: rgba(31, 58, 95, 0.8);
-    color: white;
+    color: var(--accent2-color);
     padding: 16px;
 }
 
@@ -75,6 +75,9 @@ section h2 {
     gap: 12px;
     justify-content: center;
     margin-top: 10px;
+}
+
+.socialmedia a {
     text-decoration: none;
 }
 
