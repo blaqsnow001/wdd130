@@ -146,7 +146,7 @@ section p:last-of-type {
     gap: 1rem;
 }
 
-.adventure-item {
+figure {
     text-align: center;
 }
 
